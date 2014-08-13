@@ -1,4 +1,13 @@
-#!/bin/bash 
+#!/bin/bash
+#
+# All credits for this script go to:
+# GitHub project: https://github.com/qnxor/macoh
+# Bogdan Roman, University of Cambridge, 2014
+# http://www.damtp.cam.ac.uk/research/afha/bogdan
+#
+# This script is only a stripped and slightly 
+# edited version of the work done by Bogdan Roman
+#
 
 home=~/.switchGPU
 bin="$home/bin"
