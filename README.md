@@ -1,6 +1,7 @@
 #switchGPU
 If your Mac has two graphic cards, switchGPU makes your Mac automatically use the integrated GPU when you login. This is useful for people who want to save energy, but also for people who face issues with their discrete GPU, e.g. [a lot of Macbook Pro 2011 owners][1] of who the discrete GPU causes lots of trouble (like crashes, reboots, etc.)
 This program is just a wrapper for gfxCardStatus, but the latter doesn't have an option to set a default and it has an frustrating bug that requires the user to tick a GPU version twice; switchGPU addresses those problems.
+Tested on a late 2011 Macbook with Mavericks, but it should work on most models.
 
 ##Installation
 Download the Automator file and drag it to your programs folder. Go to 'System settings > Users and groups > Log in' and add switchGPU from the programs folder using the plus sign. Tick the box in the dialog and you're good to go: switchGPU will start the next time you login.
