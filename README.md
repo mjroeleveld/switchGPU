@@ -13,7 +13,7 @@ Download the zipped Automator file (switchGPU.zip), unzip it and drag it to your
 ##How it works
 When you login, the automator program will start the integrated switchGPU script that installs gfxCardStatus at its first run. Next, the script will start gfxCardStatus three times consecutively to address the problem of the selection (which GPU) not being preserved immediately. 
 
-switchGPU uses a version of gfxCardStatus that accepts the mode you want to start the program in as a command line parameter. In this way, gfxCardStatus will always start in integrated GPU mode.
+switchGPU uses a version of gfxCardStatus that accepts the mode you want to start the program in as a command line parameter. In this way, gfxCardStatus can be started in integrated GPU mode.
 
 ##Credits
 [gfxCardStatus][2]
