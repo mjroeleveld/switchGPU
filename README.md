@@ -11,7 +11,7 @@ Tested on a late 2011 Macbook with Mavericks, but it should work on most models.
 Download the zipped Automator file (switchGPU.zip), unzip it and drag it to your programs folder. Go to 'System settings > Users and groups > Log in' and add switchGPU from the programs folder using the plus sign. Tick the box in the dialog and you're good to go: switchGPU will start the next time you login.
 
 ##How it works
-When you login, the automator program will start the integrated switchGPU script that installs gfxCardStatus at its first run. Next, the script will start gfxCardStatus three times consecutively to address the problem of the selection (which GPU) not being preserved immediately.
+When you login, the automator program will start the integrated switchGPU script that installs gfxCardStatus at its first run. Next, the script will start gfxCardStatus three times consecutively to address the problem of the selection (which GPU) not being preserved immediately. switchGPU uses a version of gfxCardStatus that accepts the mode you want to start the program in as a parameter. In this way, gfxCardStatus will always start in integrated GPU mode.
 
 ##Credits
 [gfxCardStatus][2]
