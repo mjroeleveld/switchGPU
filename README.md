@@ -3,7 +3,7 @@ If your Mac has two graphic cards, switchGPU makes your Mac automatically use th
 
 This program is just a wrapper for gfxCardStatus, but the latter doesn't have an option to set a default and it has an frustrating bug that requires the user to tick a GPU version twice; switchGPU addresses those problems.
 
-Keep in mind that using only the integrated GPU may have some drawbacks. For example, connecting an external monitor might not work anymore afterwards.
+Keep in mind that using only the integrated GPU may have some drawbacks. For example, connecting an external monitor might not work anymore afterwards. However, those who have still a working discrete GPU can easily switch to the discrete GPU (or dynamic mode) when they want to.
 
 Tested on a late 2011 Macbook with Mavericks, but it should work on most models.
 
