@@ -10,6 +10,7 @@ When you login, the automator program will start the integrated switchGPU script
 
 ##Credits
 [gfxCardStatus][1]
+
 [MacOH][2] - The switchGPU script is actually a stripped and slightly edited version of the macoh.sh script.
 
 
