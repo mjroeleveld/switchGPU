@@ -19,11 +19,15 @@ url_gfx="https://github.com/qnxor/macoh/raw/master/gfxCardStatus.tgz"
 
 mkdir -p "$logs" "$tmp" "$bin"
 
+function wget () {
+	curl -L -o "$@"
+}
+
 function get_gfx () {
 	set -e
 	rm -f $bin/done-gfx
 	echo "Fetching gfxCardStatus into $bin ..." >> $logfile
-	/usr/local/bin/wget -q "$url_gfx" -P $tmp
+	wget $tmp/gfxCardStatus.tgz "$url_gfx" -#
 	[[ -d $bin/gfxCardStatus.app ]] && rm -rf $bin/gfxCardStatus.app
 	tar -C $bin -zxf $tmp/gfxCardStatus.tgz
 	rm -f $tmp/gfxCardStatus.tgz
