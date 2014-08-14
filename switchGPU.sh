@@ -23,7 +23,7 @@ function get_gfx () {
 	set -e
 	rm -f $bin/done-gfx
 	echo "Fetching gfxCardStatus into $bin ..." >> $logfile
-	/usr/local/bin/wget -q "$url_gfx" -P $tmp
+	wget --no-check-certificate -q "$url_gfx" -P $tmp
 	[[ -d $bin/gfxCardStatus.app ]] && rm -rf $bin/gfxCardStatus.app
 	tar -C $bin -zxf $tmp/gfxCardStatus.tgz
 	rm -f $tmp/gfxCardStatus.tgz
