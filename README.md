@@ -1,8 +1,8 @@
 # switchGPU
 
-If your Mac has two graphic cards, switchGPU makes your Mac automatically use the integrated GPU when you login. This is useful for people who want to save energy, but also for people who face issues with their discrete GPU, e.g. a lot of Macbook Pro 2011 owners of who the discrete GPU causes lots of trouble (like crashes, reboots, etc.)
+If your Mac has two graphic cards, switchGPU makes your Mac automatically use the integrated GPU when you login. This is useful for people who want to save on their batteries, but also for people who face issues with their discrete GPU, e.g. a lot of Macbook Pro 2011 owners of who the discrete GPU causes lots of trouble (like crashes, reboots, etc.)
 
-This program is just a wrapper for gfxCardStatus, but the latter doesn't have an option to set a default and it has an frustrating bug that requires the user to tick a GPU version twice; switchGPU addresses those problems.
+This program is a wrapper for gfxCardStatus, which doesn't have an option to set a default and has an frustrating bug that requires the user to tick a GPU version twice; switchGPU addresses those problems.
 
 Keep in mind that using only the integrated GPU may have some drawbacks. For example, connecting an external monitor might not work anymore afterwards. However, those who have still two working graphic cards can easily switch to the discrete GPU (or dynamic mode) when they need to.
 
